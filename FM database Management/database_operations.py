@@ -28,8 +28,8 @@ def connect_to_database():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="zayedroot123",
-        database="BigFM"
+        password="password",
+        database="databasename"
     )
 def get_table_name():
     try:
